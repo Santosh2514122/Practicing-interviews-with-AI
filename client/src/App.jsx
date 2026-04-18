@@ -51,9 +51,7 @@
 import React, { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Auth from './pages/Auth'
 import Auth from "./pages/Auth";
-
 import InterviewPage from './pages/InterviewPage'
 import InterviewHistory from './pages/InterviewHistory'
 import Pricing from './pages/Pricing'
