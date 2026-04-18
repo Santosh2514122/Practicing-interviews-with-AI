@@ -60,7 +60,7 @@ import axios from 'axios'
 import { useDispatch } from 'react-redux'
 import { setUserData } from './redux/userSlice'
 
-export const ServerUrl = "http://localhost:5000";  // ✅ backend URL
+export const ServerUrl = "https://practicing-interviews-with-ai.onrender.com";  // ✅ backend URL
 
 function App() {
   const dispatch = useDispatch()
