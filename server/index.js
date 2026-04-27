@@ -1,23 +1,24 @@
 
 import dotenv from "dotenv"
 dotenv.config()
-import express from "express"
+import express from "express";
+import cors from "cors";
 import connectDb from "./config/connectDb.js"
 import cookieParser from "cookie-parser"
 
-import cors from "cors"
 import authRouter from "./routes/auth.route.js"
 import userRouter from "./routes/user.route.js"
 import interviewRouter from "./routes/interview.route.js"
 import paymentRouter from "./routes/payment.route.js"
 
-const app = express()
-const cors = require("cors");
+const app = express();
 
 app.use(cors({
-  origin: "https://your-frontend-name.onrender.com",
+  origin: "https://practicing-interviews-with-ai-client-ufvq.onrender.com",
   credentials: true
 }));
+
+app.use(express.json());
 
 
 app.use(express.json())
