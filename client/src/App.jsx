@@ -11,7 +11,7 @@
 // import Pricing from './pages/Pricing'
 // import InterviewReport from './pages/InterviewReport'
 
-// export const ServerUrl = "http://localhost:5000";  // ✅ FIX
+// export const ServerUrl = https://practicing-interviews-with-ai-1.onrender.com
 
 
 // function App() {
@@ -60,7 +60,7 @@ import axios from 'axios'
 import { useDispatch } from 'react-redux'
 import { setUserData } from './redux/userSlice'
 
-export const ServerUrl = "https://practicing-interviews-with-ai.onrender.com";  // ✅ backend URL
+export const ServerUrl = "https://practicing-interviews-with-ai-1.onrender.com";  // ✅ backend URL
 
 function App() {
   const dispatch = useDispatch()
